@@ -7,7 +7,7 @@ import os
 if len(sys.argv[1:]) == 0:
     print('Please, give a path')
     sys.exit(1)
-else:
+else:  // participating in hacktoberfest 2020
     mypath = sys.argv[1]
 
 # Going through folders and subfolders.
